@@ -1,0 +1,65 @@
+body {
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #8B4513), color-stop(100%, #000000)) no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    color: gold;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.kepl {
+    margin: 0px 0px 0px 180px;
+}
+
+.keps {
+    margin: 0px 0px 0px 160px;
+}
+
+.shadow {
+    position: relative;
+    margin: 50px auto 0;
+    width: 90%;
+    height: 80%;
+    background: linear-gradient(0deg, #8B4513, #000000);
+    padding: 10px;
+}
+
+.shadow:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(30px);
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

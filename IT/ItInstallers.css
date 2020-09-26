@@ -1,0 +1,96 @@
+@font-face {
+    font-family: MyTypeDigital;
+    src: url(Fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: MyTypeBirdman;
+    src: url(Fonts/BIRDMAN_.TTF);
+}
+
+@font-face {
+    font-family: MyTypeYukon;
+    src: url(Fonts/yukon-tech-33868/YukonTech-w7y3.otf);
+}
+
+@font-face {
+    font-family: MyTypeDelogs;
+    src: url(Fonts/delogs-goes-hi-tech-23754/DelogsGoesHiTech-rJXp.ttf);
+}
+
+@font-face {
+    font-family: MyTypeMech;
+    src: url(Fonts/mech-tech-18071/MechTech-1mlZ.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body {
+    background-color: black;
+    color: white;
+}
+
+#torzs {
+    background-color: #1A1A1A;
+    color: #E98C0B;
+    margin: auto 200px;
+    padding: 10px;
+    border: solid 2px red;
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+}
+
+#cim {
+    text-decoration: underline;
+    font-family: MyTypeDigital;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    font-family: MyTypeBirdman;
+}
+
+h2 {
+    text-align: left;
+    font-family: MyTypeBirdman;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #E98C0B;
+    text-align: left;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+a {
+    color: rgb(226, 79, 17);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+p {
+    text-align: justify;
+}
+
+#home {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    width: 70%;
+    background-color: #CB460E;
+    border: #CB460E solid 1px;
+    margin: 20px 20px 20px 215px;
+}

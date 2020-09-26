@@ -1,0 +1,112 @@
+body {
+    color: gold;
+    background-image: url("49240.jpg");
+}
+
+#friss {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    background: gold;
+    width: 100%;
+    height: 2px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    margin: 0px auto;
+    padding: 5px 10% 5px 10%;
+}
+
+ul {
+    text-align: center;
+    margin-left: 80px;
+    padding: 0;
+    display: flex;
+    text-decoration: underline;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+    transition: 0.5s;
+}
+
+ul li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #F8011E;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+ul:hover li a {
+    transform: scale(1.5);
+    opacity: .2;
+    filter: blur(5px);
+}
+
+ul li a:hover {
+    transform: scale(2);
+    opacity: 1;
+    filter: blur(0);
+}
+
+ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4C4C4C;
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX(0);
+    z-index: -1;
+}
+
+ul li a:hover:before {
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scale(1);
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#bal {
+    text-align: left;
+}
+
+#jobb {
+    text-align: right;
+    margin-left: 5px;
+    width: 20%;
+}
+
+#torzs {
+    font-size: 25px;
+}
+
+#list {
+    margin: auto 20px;
+}
