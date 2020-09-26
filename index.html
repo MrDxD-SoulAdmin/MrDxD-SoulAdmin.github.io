@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hun">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.onlinewebfonts.com/icon/409483.png" type="image/x-icon">
+    <link rel="stylesheet" href="/LogMain/login.css">
+
+    <script Language="JavaScript">
+        console.log("nono");
+        const users = [{
+                name: "Soul",
+                Pass: "NetAdmin"
+            }
+            /*, {
+                        name: "Selti",
+                        Pass: "NetUser001"
+                    }, {
+                        name: "N0rris",
+                        Pass: "wizynwstc"
+                    }, {
+                        name: "Degubi",
+                        Pass: "NetUser003"
+                    }, {
+                        name: "Adam",
+                        Pass: "NetUser004"
+                    }, {
+                        name: "Ati",
+                        Pass: "NetUser005"
+                    }, {
+                        name: "Marci",
+                        Pass: "NetUser006"
+                    }, {
+                        name: "Don_Nyuff",
+                        Pass: "Szben1997"
+                    }, {
+                        name: "Roli",
+                        Pass: "Kamujelszo02"
+                    },*/
+        ];
+
+        function login() {
+            var IU = document.getElementById("INU").value;
+            var IP = document.getElementById("INP").value;
+
+            let live = false;
+
+            for (let i = 0; i < users.length; i++) {
+                if (IU === users[i].name && IP === users[i].Pass) {
+                    live = true;
+                    break;
+                }
+
+            }
+
+            if (live === true) {
+                window.location.replace("/LogMain/Main.html");
+            } else {
+                window.alert("Not Registed User. Please contact to the Admin!");
+            }
+        }
+
+        function enter(event) {
+            console.log("asd");
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                login();
+            }
+        }
+    </script>
+
+    <title>Login Page</title>
+</head>
+
+<body>
+    <form class="box" action="index.html" method="POST" name="Main">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <h1>Login</h1>
+        <p id="csillag">A *-al megjelölt mező kitöltése kötelező!</p>
+        <input type="text" placeholder="*Username" id="INU">
+        <input type="password" placeholder="*Password" id="INP" onkeyup="enter(event)">
+        <button type="button" id="butt" onclick="login()">LOGIN</button>
+    </form>
+</body>
+
+</html>

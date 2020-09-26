@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: -webkit-gradient(linear,center top, center bottom,
+    color-stop(0%,black),
+    color-stop(100%,#0B2161)) 
+    no-repeat center center fixed;
+}
+#csillag{
+    color: gold;
+    font-size: 10px;
+}
+.box{
+    width:  300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: -webkit-gradient(linear,center top, center bottom,
+    color-stop(0%,#0B2161),
+    color-stop(100%,rgb(0,0,0))) 
+    no-repeat center center fixed;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,.75);
+}
+.box h1{
+    color: gold;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+border: 0px;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #FF0000;
+padding: 14px 10px;
+width: 200px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+width: 280px;
+border-color: #04e100;
+}
+
+a{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: gold;
+    padding: 5px 25px 5px 25px;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 2px solid #FF0000;
+}
+a:hover{
+    border-color: #04e100;
+    color:#FF0000;
+}
+.box span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right , #0c002b,#FF0000);
+    animation: an1 2s linear infinite;
+    
+}
+
+.box span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom , #0c002b,#FF0000);
+    animation: an2 2s 1s linear infinite;
+}
+
+.box span:nth-child(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left , #0c002b,#04e100);
+    animation: an3 2s linear infinite;
+}
+
+.box span:nth-child(4){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to top , #0c002b,#04e100);
+    animation: an4 2s 1s linear infinite;
+}
+@keyframes an1{
+0%{
+    transform: translateX(-100%);
+}
+100%{
+    transform: translateX(100%);
+}
+}
+@keyframes an2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+    }
+    @keyframes an3{
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+        }
+        @keyframes an4{
+            0%{
+                transform: translateY(100%);
+            }
+            100%{
+                transform: translateY(-100%);
+            }
+            }
