@@ -1,0 +1,70 @@
+@font-face {
+    font-family: MyTypeDigital;
+    src: url(Fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: MyTypeBirdman;
+    src: url(Fonts/BIRDMAN_.TTF);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body {
+    background-color: black;
+    color: white;
+}
+
+#torzs {
+    background-color: #1A1A1A;
+    color: #E98C0B;
+    margin: auto 200px;
+    padding: 10px;
+    border: solid 2px red;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+#cim {
+    text-decoration: underline;
+    font-family: MyTypeDigital;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    font-family: MyTypeBirdman;
+}
+
+h2 {
+    text-align: left;
+    font-family: MyTypeBirdman;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #E98C0B;
+    text-align: left;
+}
+
+a {
+    color: rgb(226, 79, 17);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+p {
+    text-align: justify;
+}
+
+#home {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+}

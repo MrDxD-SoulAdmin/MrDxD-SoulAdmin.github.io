@@ -1,0 +1,82 @@
+body {
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #000000), color-stop(100%, #8B4513)) no-repeat center center fixed;
+    margin: 0px auto;
+    color: gold;
+    font-size: 8mm;
+	text-align: center;
+}
+
+#fej {
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #8B4513), color-stop(100%, #000000)) no-repeat center center fixed;
+    width: 80%;
+    margin: 0px auto;
+    padding: 5px 5px 5px 5px;
+    border: 5px #808080 solid;
+    border-bottom: 5px black solid;
+    font-size: 8mm;
+}
+
+#torzs {
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #8B4513), color-stop(100%, #000000)) no-repeat center center fixed;
+    width: 80%;
+    margin: 0px auto;
+    padding: 5px 5px 5px 5px;
+    border: 5px #808080 solid;
+    border-bottom: 5px black solid;
+}
+
+#lab {
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #8B4513), color-stop(100%, #000000)) no-repeat center center fixed;
+    width: 80%;
+    margin: 0px auto;
+    padding: 5px 5px 5px 5px;
+    border: 5px #808080 solid;
+    border-bottom: 5px black solid;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #04e100;
+    text-decoration: underline;
+}
+
+#cim {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#leiras {
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+#leirasF {
+    text-decoration: underline;
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+button {
+    border: 5px;
+    background: none;
+    display: inline;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #FF0000;
+    padding: 14px 10px;
+    width: 245px;
+    color: gold;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #04e100;
+    background: #6A0888;
+    border-color: #04e100;
+}

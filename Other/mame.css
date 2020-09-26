@@ -1,0 +1,13 @@
+body{
+    background: -webkit-gradient(linear,center top, center bottom,
+    color-stop(0%,black),
+    color-stop(100%,#FF0000))
+    no-repeat fixed;
+}
+nav{
+    font-family: sans-serif;
+    font-size: 72px;
+    color: gold;
+    text-align: center;
+    
+}

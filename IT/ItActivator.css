@@ -1,0 +1,69 @@
+@font-face {
+    font-family: MyTypeDigital;
+    src: url(Fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: MyTypeBirdman;
+    src: url(Fonts/BIRDMAN_.TTF);
+}
+
+@font-face {
+    font-family: MyTypeYukon;
+    src: url(Fonts/yukon-tech-33868/YukonTech-w7y3.otf);
+}
+
+@font-face {
+    font-family: MyTypeDelogs;
+    src: url(Fonts/delogs-goes-hi-tech-23754/DelogsGoesHiTech-rJXp.ttf);
+}
+
+@font-face {
+    font-family: MyTypeMech;
+    src: url(Fonts/mech-tech-18071/MechTech-1mlZ.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+body {
+    background-color: black;
+    color: white;
+    font-family: MyTypeBirdman;
+}
+
+h1 {
+    font-family: MyTypeDigital;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: MyTypeDigital;
+}
+
+ul {
+    font-family: MyTypeDelogs;
+}
+
+a {
+    color: #CB460E;
+}
+
+a:hover {
+    color: aqua;
+}
+
+hr {
+    width: 70%;
+    background-color: #CB460E;
+    border: #CB460E solid 1px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#home {
+    text-align: left;
+    list-style-type: none;
+}
