@@ -24,10 +24,11 @@ const users = [{
             }, {
                 name: "Don_Nyuff",
                 Pass: "Szben1997"
-            }, {
-                name: "Roli",
-                Pass: "Kamujelszo02"
-            },*/
+            }*/
+    , {
+        name: "Roli",
+        Pass: "Kamujelszo02"
+    },
 ];
 
 function login() {
