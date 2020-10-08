@@ -1,2 +1,2 @@
-# MrDxD-SoulAdmin.github.io
-My Page :D
+# SoulAdmin.Net
+Ez az én oldalam amin minecraft és IT témában találsz érdekes és hasznos dolgokat :D
