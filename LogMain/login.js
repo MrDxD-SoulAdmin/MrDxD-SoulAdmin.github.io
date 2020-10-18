@@ -1,35 +1,32 @@
 console.log("nono");
 const users = [{
-        name: "Soul",
-        Pass: "NetAdmin"
-    }
-    /*, {
-                name: "Selti",
-                Pass: "NetUser001"
-            }, {
-                name: "N0rris",
-                Pass: "wizynwstc"
-            }, {
-                name: "Degubi",
-                Pass: "NetUser003"
-            }, {
-                name: "Adam",
-                Pass: "NetUser004"
-            }, {
-                name: "Ati",
-                Pass: "NetUser005"
-            }, {
-                name: "Marci",
-                Pass: "NetUser006"
-            }, {
-                name: "Don_Nyuff",
-                Pass: "Szben1997"
-            }*/
-    , {
-        name: "Roli",
-        Pass: "Kamujelszo02"
-    },
-];
+    name: "Soul",
+    Pass: "NetAdmin"
+}, {
+    name: "Selti",
+    Pass: "NetUser001"
+}, {
+    name: "N0rris",
+    Pass: "wizynwstc"
+}, {
+    name: "Degubi",
+    Pass: "NetUser003"
+}, {
+    name: "Adam",
+    Pass: "NetUser004"
+}, {
+    name: "Ati",
+    Pass: "NetUser005"
+}, {
+    name: "Marci",
+    Pass: "NetUser006"
+}, {
+    name: "Don_Nyuff",
+    Pass: "Szben1997"
+}, {
+    name: "Roli",
+    Pass: "Kamujelszo02"
+}, ];
 
 function login() {
     var IU = document.getElementById("INU").value;
