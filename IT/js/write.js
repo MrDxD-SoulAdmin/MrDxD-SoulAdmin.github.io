@@ -20,7 +20,33 @@ function DisplayText(param) {
                 "</ol>";
             break;
         case 2:
-            txt = "eggyes";
+            txt = "<h3>Felesleges Értesítések tiltása</h3>" +
+                "<p>Ezt a pontot az OOSU10 program elvégzi nem kell egyesével kikapcsolni</p>" +
+                "<hr>" +
+                "<p>Step I</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step1.png\" alt=\"Step1\" class=\"kep\"><br>" +
+                "<hr>" +
+                "<p>Step II</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step2.png\" alt=\"Step2\" class=\"kep\"><br>" +
+                "<hr>" +
+                "<p>Step III</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step3.png\" alt=\"Step3\" class=\"kep\"><br>" +
+                "<hr>" +
+                "<p>Step IV</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step4.png\" alt=\"Step4\" class=\"kep\"><br>" +
+                "<hr>" +
+                "<p>Step V</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step5.png\" alt=\"Step5\" class=\"kep\"><br>" +
+                "<hr>" +
+                "<p>Step VI</p>" +
+                "<hr>" +
+                "<img src=\"/IT/Pictures/o&o/step6.png\" alt=\"Step6\" class=\"kep\"><br>";
+
             break;
         case 3:
             txt = "eggyes";

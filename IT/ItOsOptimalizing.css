@@ -101,4 +101,9 @@ hr {
 
 li {
     text-align: justify;
+    list-style-type: none;
+}
+
+.kep {
+    width: 80%;
 }
