@@ -61,7 +61,7 @@ h2 {
 h3 {
     color: #E98C0B;
     text-align: left;
-    font-family: MyTypeBirdman;
+    font-family: consolas;
     text-decoration: underline;
 }
 
@@ -72,6 +72,7 @@ h4 {
 a {
     color: rgb(226, 79, 17);
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -79,7 +80,7 @@ a:hover {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
 }
 
 #home {
@@ -96,4 +97,8 @@ hr {
 
 #kiemel {
     text-decoration: underline;
+}
+
+li {
+    text-align: justify;
 }
