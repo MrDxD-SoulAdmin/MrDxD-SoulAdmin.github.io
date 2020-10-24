@@ -3,13 +3,13 @@ const users = [{
         name: "Soul",
         Pass: "NetAdmin"
     },
-    /* {
+    {
         name: "Selti",
         Pass: "NetUser001"
     }, {
         name: "N0rris",
         Pass: "wizynwstc"
-    },*/
+    },
     {
         name: "Degubi",
         Pass: "NetUser003"
