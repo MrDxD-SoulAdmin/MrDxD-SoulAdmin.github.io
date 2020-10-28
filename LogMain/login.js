@@ -41,10 +41,8 @@ function login() {
                 'Username': IU,
             }
         })
-        .then(k => k.text())
         .then(k => {
-            console.log(k);
-            if (k === 'Yes') {
+            if (k.status === 200) {
                 window.location.replace("/LogMain/Main.html");
             } else {
                 window.alert("Not Registed User. Please contact to the Admin!");
