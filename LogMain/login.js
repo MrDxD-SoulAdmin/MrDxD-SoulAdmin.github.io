@@ -35,7 +35,13 @@ function login() {
     var IU = document.getElementById("INU").value;
     var IP = document.getElementById("INP").value;
 
-    fetch('https://soulcorplogin.herokuapp.com', { headers: { 'Password': IP, 'Username': IU } })
+    fetch('https://soulcorplogin.herokuapp.com', {
+            headers: {
+                'Password': IP,
+                'Username': IU,
+                'Access-Control-Allow-Origin': '*'
+            }
+        })
         .then(k => k.body)
         .then(k => {
             if (k === 'Yes') {
