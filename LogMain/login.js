@@ -36,11 +36,11 @@ function login() {
     var IP = document.getElementById("INP").value;
 
     fetch('https://soulcorplogin.herokuapp.com/login', {
-            method: 'GET',
+            // method: 'GET',
             headers: {
                 'Password': IP,
                 'Username': IU,
-                'Access-Control-Allow-Origin': '*'
+                //'Access-Control-Allow-Origin': '*'
             }
         })
         .then(k => k.body)
