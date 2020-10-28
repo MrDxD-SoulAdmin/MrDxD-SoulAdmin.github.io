@@ -35,21 +35,15 @@ function login() {
     var IU = document.getElementById("INU").value;
     var IP = document.getElementById("INP").value;
 
-    let live = false;
-
-    for (let i = 0; i < users.length; i++) {
-        if (IU === users[i].name && IP === users[i].Pass) {
-            live = true;
-            break;
-        }
-
-    }
-
-    if (live === true) {
-        window.location.replace("/LogMain/Main.html");
-    } else {
-        window.alert("Not Registed User. Please contact to the Admin!");
-    }
+    fetch('https://soulcorplogin.herokuapp.com', { headers: { 'Password': IP, 'Username': IU } })
+        .then(k => k.body)
+        .then(k => {
+            if (k === 'Yes') {
+                window.location.replace("/LogMain/Main.html");
+            } else {
+                window.alert("Not Registed User. Please contact to the Admin!");
+            }
+        });
 }
 
 function enter(event) {
