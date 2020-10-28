@@ -36,6 +36,7 @@ function login() {
     var IP = document.getElementById("INP").value;
 
     fetch('https://soulcorplogin.herokuapp.com', {
+            method: 'GET',
             headers: {
                 'Password': IP,
                 'Username': IU,
