@@ -41,7 +41,7 @@ function login() {
                 'Username': IU,
             }
         })
-        .then(k => k.body)
+        .then(k => k.text())
         .then(k => {
             console.log(k);
             if (k === 'Yes') {
