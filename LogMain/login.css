@@ -77,7 +77,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(to right, #0c002b, #FF0000);
+    background: linear-gradient(to right, #0c002b, #0004ff);
     animation: an1 2s linear infinite;
 }
 
@@ -107,7 +107,7 @@ a:hover {
     left: 0;
     width: 5px;
     height: 100%;
-    background: linear-gradient(to top, #0c002b, #04e100);
+    background: linear-gradient(to top, #0c002b, gold);
     animation: an4 2s 1s linear infinite;
 }
 
