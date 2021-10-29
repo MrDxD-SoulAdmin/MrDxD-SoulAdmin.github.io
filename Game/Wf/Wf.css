@@ -1,1 +1,21 @@
-
+body{
+    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, black), color-stop(100%, #0B2161)) no-repeat center center fixed;
+    color: aqua;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+hr{
+    width: 80%;
+}
+li{
+    list-style: none;
+}
+h2{
+    text-decoration: underline;
+}
+td,tr{
+border: 1px darkblue solid;
+padding: 5px 5px 5px 5px;
+}
