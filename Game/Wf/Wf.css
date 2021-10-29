@@ -19,3 +19,19 @@ td,tr{
 border: 1px darkblue solid;
 padding: 5px 5px 5px 5px;
 }
+.sor{
+    text-align: center;
+}
+.kozep{
+    text-align: center;
+}
+h4,h3{
+    text-decoration: underline;
+}
+.desc{
+    text-align: left;
+    font-size: 20pxSSS;
+}
+.type{
+    list-style: circle;
+}
