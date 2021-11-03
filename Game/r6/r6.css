@@ -1,0 +1,43 @@
+body{
+    background-image: url(r6_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+}
+.Operator_Card_ACK{
+    margin: 10px 10px 10px 10px;
+    padding:0px auto;
+    height: 280px;
+    min-width: 150px;
+    
+}
+.Operator_Card_ACK img:hover{
+    border: 5px blue solid;
+    transform: scale(1.2,1.2);
+}
+.Operator_Card_DEF{
+    margin: 10px 10px 10px 10px;
+    padding:0px auto;
+    height: 280px;
+    min-width: 150px;
+    
+}
+.Operator_Card_DEF img:hover{
+    border: 5px orange solid;
+    transform: scale(1.2,1.2);
+}
+table{
+    margin: 0px auto;
+}
+td,tr{
+    margin: 10px 10px 10px 10px;
+}
+hr{
+    width: 80%;
+}
+
+h1,h2{
+    text-align: center;
+    text-decoration: underline;
+}
